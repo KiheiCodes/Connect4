@@ -76,7 +76,7 @@ public class Display {
 		if (winner == 1 || winner == 2) {
 			cStr(g, tts(winner) + " won!", 0, -390, width, height, 40);
 		} else if (full) {
-			cStr(g, "Draw", 0, -200, width, height, 40);
+			cStr(g, "Draw", 0, -390, width, height, 40);
 			winner = 3;
 		}
 		
